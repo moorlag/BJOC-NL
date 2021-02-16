@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="/bjc-r/llab/loader.js"></script>
+		<title>Hoofdstuk 3 Les 5: Big Data, Deel 4</title>
+	</head>
+
+	<body>
+    <div class="todo">
+        <p>ST EK List: <br />
+       3.2.1G Metadata is data about data.<br />
+        3.2.1H Metadata can be descriptive data about an image, a Web page, or other complex objects.<br />
+        3.2.1I Metadata can increase the effective use of data or data sets by providing additional information about various aspects of that data.</p>
+        <p>7.3.1G Privacy and security concerns arise in the development and use of computational systems and artifacts.<br>
+  7.3.1H Aggregation of information, such as geolocation, cookies, and browsing history, raises privacy and security concerns.<br>
+  7.3.1J Technology enables the collection, use, and exploitation of information about, by, and for individuals, groups, and institutions.<br />
+        </p>
+
+       </div>
+		<h2>Metadata</h2>
+        <div class="learn">
+        	<p><strong>Op deze pagina.. </strong>, leer je meer over <em>metadata</em>.</p>
+        </div>
+
+        <p>Gegevens kunnen zelfs <em> gegevens over zichzelf bevatten </em>. Een muziekbestand kan gegevens bevatten die de titel van het nummer, de artiest, het album, het genre en het platenlabel enz. beeschrijven. Of een afbeeldingsbestand kan gegevens bevatten over de datum waarop de foto is gemaakt, de locatie waar deze is gemaakt, informatie over de camera-instellingen, etc. Dit soort informatie over gegevens wordt <strong> metadata </strong> genoemd. Metadata kunnen handig zijn bij het werken met data omdat het je extra informatie geeft over de gegevens waarmee je werkt. </ P>
+        <!--<div class="endnote">
+            As another example, the Take It Further exercises in <a href="/bjc-r/cur/programming/3-lists/1-introduction-to-lists/old/2-modifying-adt.html?topic=nyc_bjc%2F3-lists.topic&course=bjc4nyc.html&novideo&noassignment">Lab 1</a> used  metadata to correctly display names from cultures that write a person's family name in front of their given name:<br />
+            <img class="indent" src="/bjc-r/img/3-lists/display-form-sun-yixian.png" alt="display form of name: (name, type: (family-first) given: (Yìxiān) family: (Sun))" title="display form of name: (name, type: (family-first) given: (Yìxiān) family: (Sun))" /><br />
+            <img class="indent" src="/bjc-r/img/3-lists/display-form-abraham-lincoln.png" alt="display form of name: (name, type: (given-first) given: (Abraham) family: (Lincoln))" title="display form of name: (name, type: (given-first) given: (Abraham) family: (Lincoln))" /><br />
+            In this example, the metadata is the <var>type</var> of name: <em>given-first</em> or <em>family-first</em>.
+        </div>-->
+
+        <div class="takeNote">
+            Omdat metadata vaak niet door software worden weergegeven, is het gemakkelijk om privacy te schenden zonder het te beseffen bij het online plaatsen van gegevens. Klik op de links hieronder om korte fragmenten te zien van
+            <em>Blown to Bits</em>:
+            <ul>
+                <li>
+                    <a href="#hint-1" data-toggle="collapse" title="Blown to Bits : Photo metadata">Foto metadata kan je camera specifieren.</a>
+                    <div id="hint-1" class="collapse"><img src="/bjc-r/img/3-lists/camera-metadata.png" alt="Harry Potter upload camera metadata (BtB chapter 2)" title="Harry Potter upload camera metadata (BtB chapter 2)" /></div>
+                </li>
+                <li>
+                    <a href="#hint-2" data-toggle="collapse" title="Blown to Bits: Word document metadata">Word document metadata met verwijderde tekst.</a>
+                    <div id="hint-2" class="collapse"><img src="/bjc-r/img/3-lists/track-changes.png" alt="MS Word Track Changes (BtB ch 3)" title="MS Word Track Changes (BtB ch 3)" /></div>
+                </li>
+            </ul>
+        </div>
+        <p>
+            Hier is een  BJoC video over metadata van de  universiteit van Berkeley, California.<br />
+            <img class="imageRight" src="/bjc-r/img/icons/headphones.png" alt="Set Up Your Headphones or Speakers" title="Set Up Your Headphones or Speakers" />
+        </p>
+        <div class="sidenote">Als YouTube geblokkeerd is, <a href="http://scratch.mit.edu/discuss/youtube/dZULyIcxPBg" target="_blank" title="Data: Metadata">kun je de video hier bekijken.</a>.</div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dZULyIcxPBg?rel=0" frameborder="0" allowfullscreen class="indent"></iframe><br />
+
+
+        <div class="forYouToDo" id="first">
+			<ol>
+				<li>
+                	Met deze vragen kun jij je kennis testen:
+                	<!-- Question 1 -->
+                    <div class="assessment-data" type="multiplechoice" identifier="mobile phone recording metadata"
+                        hasinlinefeedback="true" maxchoices="1" responseIdentifier="ri1" shuffle="true">
+                        <div class="prompt">
+                            Een nieuw bedrijf dat mobiele telefonie maakt neemt buiten het medeweten van zijn klanten  periodiek willekeurige fragmenten van hun gesprekken op en beschouwt de opnames als gegevens. Daarnaast verzamelt het de volgende metadata over de gesprekken:
+                            <ul>
+                                <li>Begin en einde van ieder gesprek</li>
+                                <li>De telefoonnummers waarmee gebeld is</li>
+                                <li>De GPS locatie van gebruikers</li>
+                            </ul>
+                            <p>Voor welke van de volgende doelen zou het handiger zijn om de <em> <strong> gegevens </strong> </em> te analyseren in plaats van de <em> <strong> metadata </strong> </em>? </p>
+                        </div>
+                        <div class="choice" identifier="c1">
+                            <div class="text">Om te bepalen of een van zijn gebruikers aanwezig was op het tijdstip en de plaats van een misdrijf.</div>
+                            <div class="feedback">Voor dit doel zou GPS en tijdinformatie (in de metadata) nuttiger zijn.</div>
+                        </div>
+                        <div class="choice" identifier="c2">
+                            <div class="text">Om het tijdstip van de dag te bepalen, wordt de app het vaakst gebruikt op een bepaalde geografische locatie.</div>
+                            <div class="feedback">Voor dit doel zou GPS en tijdinformatie (in de metadata) nuttiger zijn.</div>
+                        </div>
+                        <div class="choice" identifier="c3">
+                            <div class="text">De taal bepalen die het meest wordt gebruikt in gesprekken.</div>
+                            <div class="feedback">Voor dit doel zouden de gespreksgegevens zelf worden geanalyseerd.</div>
+                        </div>
+                        <div class="choice" identifier="c4">
+                            <div class="text">Om de actiefste gebruikers van de app voor een bepaald jaar te bepalen.</div>
+                            <div class="feedback">Voor dit doel zouden gebruikerstelefoonnummers en tijdinformatie (in de metadata) nuttiger zijn.</div>
+                        </div>
+                        <div class="responseDeclaration" identifier="ri1">
+                            <div class="correctResponse" identifier="c3"></div>
+                        </div>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="assessment-data" type="multiplechoice" identifier="example of metadata"
+                        hasinlinefeedback="true" maxchoices="1" responseIdentifier="ri2" shuffle="true">
+                        <div class="prompt">Welke van de volgende voorbeelden is  <em><strong>niet</strong></em> een voorbeeld van <em>metadata</em>?</div>
+                        <div class="choice" identifier="c1">
+                            <div class="text">Gegevens over een digitale afbeelding die de grootte van de afbeelding, de afbeeldingsresolutie, de kleurdiepte en de afbeelding beschrijft.</div>
+                            <div class="feedback">Dit is een voorbeeld van gegevens over gegevens.</div>
+                        </div>
+                        <div class="choice" identifier="c2">
+                            <div class="text">Gegevens over een tekstdocument met informatie over de lengte van het document, de auteur, de datum waarop het document is geschreven en een korte samenvatting van de inhoud.</div>
+                            <div class="feedback">Dit is een voorbeeld van gegevens over gegevens.</div>
+                        </div>
+                        <div class="choice" identifier="c3">
+                            <div class="text">Gegevens over een roedel wolven die hun leefgebied, jachtgewoonten, voeding en slaapcycli beschrijven.</div>
+                            <div class="feedback"> Gegevens over wolven zijn geen gegevens over gegevens.</div>
+                        </div>
+                        <div class="choice" identifier="c4">
+                            <div class="text">Gegevens binnen een webpagina met een beschrijving van de pagina-inhoud en een lijst met sleutelwoorden die aan de inhoud zijn gekoppeld.</div>
+                            <div class="feedback">Dit is een voorbeeld van gegevens over gegevens.</div>
+                        </div>
+                        <div class="responseDeclaration" identifier="ri2">
+                            <div class="correctResponse" identifier="c3"></div>
+                        </div>
+                    </div>
+                </li>
+			</ol>
+		</div>
+
+
+	</body>
+</html>
